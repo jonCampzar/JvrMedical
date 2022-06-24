@@ -555,3 +555,10 @@ tr, td{
     height: 100px;
     width: 100px;
 }
+#especialidad{
+    display: flex;
+    margin-left: 40px;
+    font-family: 'Bad Script', cursive;
+    font-size: 24px;
+    margin-top: 10px;
+}
