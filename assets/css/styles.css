@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Cinzel+Decorative:wght@900&family=Kaushan+Script&family=Patua+One&family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+#navbar{
+    background-color: rgb(253, 253, 253);
+    border: rgb(17, 154, 179) solid 1px;
+    height: 100px;
+    border-radius: 20px;
+    font-family: 'Bad Script', cursive;
+    font-size: 18px;
+}
+#logonav{
+    height: 90px;
+    width: 140px;
+}
+#icono{
+    display: flex;
+    margin-left: 10px;
+}
+.icono-user, .icono-med{
+    height: 23px;
+    margin-left: 8px;
+}
+#logo{
+    height: 250px;
+    width: 250px;
+}
+#main{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    margin: 0;
+    padding: 0;
+}
+#titulo{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+    margin-top: 5px;
+    width: 100vw;
+}
+#maintext{
+    display: flex;
+    padding-top: 40px;
+    text-align: justify;
+    justify-content: center;
+    margin-left: 50px;
+}
+#logoprincipal{
+    display: flex;
+    justify-content: flex-end;
+}
+#footer{
+    background-color: rgb(35, 130, 182);
+}
+#social{
+    height: 25px;
+    width: 25px;
+    margin-top: 25px;
+}
+#textf{
+    color: black;
+    font-family: 'Patua One', cursive;
+    font-size: 20;
+}
+#ped, #psi, #den{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:250px ;
+    width: 250px;
+    margin: 0 auto;
+}
+#rama1{
+    
+    background-color: rgb(84, 137, 218);
+    width: 100vw;
+    color: blanchedalmond;
+    text-align: justify;
+  
+}
+#rama2{
+    background-color: rgb(253, 253, 253);
+    width: 100vw;
+    text-align: justify;
+}
+#rama3{
+    background-color: rgb(10, 86, 92);
+    width: 100vw;
+    color: blanchedalmond;
+    text-align: justify;
+}
+#textr{
+    margin-top: 40px;
+}
+#titulor{
+    font-family: 'Bad Script', cursive;
+    font-size: 28px;
+    text-align: center;
+}
+
+#textoramas{
+    margin-right: 20px;
+}
+
+/* Ventana Modal Usuario */
+
+.fondo_transparente{
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.226);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: none;
+}
+.modal{
+    background: linear-gradient(0deg,rgb(253, 253, 253) 80%, rgb(84, 137, 218) 20%);
+    width: 350px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+
+}
+.modal_cerrar{
+    background: rgb(253, 253, 253);
+    position: absolute;
+    right: 10px;
+    color: rgb(27, 80, 196);
+    top: 8px;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 12;
+}
+#paciente{
+    font-size: 17px;
+    text-align: center;
+}
+.modal_titulo{
+    color: white;
+    font-size: 25px;
+}
+.modal_mensaje{            
+   padding: 5px 50px;
+}
+.modal_botones{      
+    width: 100%;    
+   background: rgb(253, 253, 253);
+   border-top:whitesmoke 1px;
+   display: flex;
+   justify-content: space-evenly;
+   padding-bottom: 5px;
+   border-radius: 30px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.boton{
+    background: rgb(84, 137, 218);
+    padding: 8px 30px;
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+    border-radius: 25px;
+    border:1px solid rgb(12, 24, 182);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.boton:hover{
+    color: rgb(27, 80, 196);
+    color: rgba(14, 13, 13, 0.959);
+}
+#form-user{
+    margin-top: 5px;
+}
+#labelemail{
+    margin: 7px;
+    margin-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+#labelpass{
+    margin: 7px;
+    margin-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+#labelcheck{
+    margin-left: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+.form-group{
+    margin: 10px;
+}
+#form-pass{
+    margin-left: 15px;
+    border-radius: 10px;
+    height: 25px;
+}
+#form-check{
+    margin-left: 15px;
+}
+#form-email{
+    border-radius: 10px;
+    height: 25px;
+    margin-left: 15px;
+}
+#modal-img{
+    height: 100px;
+    width: 100px;
+}
+
+/* Ventana Modal Medico */
+
+.fondo_transparente1{
+    top: 0;
+    left: 0;
+    background: rgba(20, 20, 20, 0.226);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: none;
+}
+.modal1{
+    background: linear-gradient(0deg,rgb(253, 253, 253) 80%, rgb(15, 121, 134) 20%);
+    width: 350px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    z-index: 1;
+}
+.modal_cerrar1{
+    background: rgb(253, 253, 253);
+    position: absolute;
+    right: 10px;
+    color: rgb(15, 121, 134);
+    top: 8px;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+#paciente1{
+    font-size: 17px;
+    text-align: center;
+}
+.modal_titulo1{
+    color: white;
+    font-size: 25px;
+}
+.modal_mensaje1{            
+   padding: 5px 50px;
+}
+.modal_botones1{      
+    width: 100%;    
+   background: rgb(253, 253, 253);
+   border-top:whitesmoke 1px;
+   display: flex;
+   justify-content: space-evenly;
+   padding-bottom: 5px;
+   border-radius: 30px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.boton1{
+    background: rgb(15, 121, 134);
+    padding: 8px 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 25px;
+    border:1px solid rgb(235, 234, 241);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+}
+.boton1:hover{
+    color: rgb(15, 121, 134);
+    color: rgb(15, 121, 134);
+}
+#form-med{
+    margin-top: 5px;
+}
+#labelemail1{
+    margin: 7px;
+    margin-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+} 
+
+#labelpass1{
+    margin: 7px;
+    margin-left: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+#labelcheck1{
+    margin-left: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+#form-pass1{
+    margin-left: 15px;
+    border-radius: 10px;
+    height: 25px;
+}
+#form-check1{
+    margin-left: 15px;
+}
+#form-email1{
+    border-radius: 10px;
+    height: 25px;
+    margin-left: 15px;
+}
+#modal-img1{
+    height: 100px;
+    width: 100px;
+}
+
+/* Pediatria */
+#cards{
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    width: 90vw;
+}
+#main2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    margin: 0;
+    padding: 0;
+}
+#titulo2{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+    margin-top: 5px;
+    width: 100vw;
+    color: rgb(82, 104, 230);
+}
+#titulo3{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+    margin-top: 5px;
+    width: 100vw;
+    color: rgb(231, 58, 58);
+}
+#titulo4{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+    margin-top: 5px;
+    width: 100vw;
+    color: rgb(219, 162, 37);
+}
+#titulo5{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    font-size: 5vh;
+    margin-top: 5px;
+    width: 100vw;
+    color: rgb(20, 20, 19);
+}
+.card{
+    width: 250px;
+}
+.card-title{
+    font-size: 12px;
+    text-justify: auto;  
+    font-family: 'Montserrat', sans-serif;   
+}
+.card-body{
+width: 250;
+border: 2px solid rgb(105, 104, 99);
+}
+#mapa{
+
+    width: 250px;
+    height: 130px;
+   
+}
+#datos{
+font-size: 10px;
+text-align: left;
+font-family: 'Montserrat', sans-serif;
+}
+#descripcion{
+    font-size: 10px;
+    text-justify: auto;  
+    font-family: 'Montserrat', sans-serif;
+}
+#imagen-c{
+    width: 250px;
+    height: 130px;
+    border: 1px solid rgb(0, 0, 0);
+}
+#botoncita{
+    font-size: 10px;
+    text-justify: auto;  
+    font-family: 'Montserrat', sans-serif;
+}
+
+.calendar2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-collapse: separate;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    color: black;
+}
+tr, td{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(120, 201, 187);
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    width: 55px;
+    height: 45px;
+
+}
+#month{
+    background-color: rgb(120, 201, 187);
+}
+#calendar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-collapse: separate;
+    width: 100%;
+    margin: 10px;
+    margin-bottom: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+#dia:hover {
+    background-color: rgb(226, 61, 49);
+    color: white;
+}
+#mes{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+/* ventana modal home medico */
+.fondo_transparente2{
+    top: 0;
+    left: 0;
+    background: rgba(20, 20, 20, 0.226);
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: none;
+}
+.modal2{
+    background: linear-gradient(0deg,rgb(253, 253, 253) 80%, rgb(15, 121, 134) 20%);
+    width: 350px;
+    height: 550px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 30px;
+    z-index: 10;
+}
+.modal_cerrar2{
+    background: rgb(253, 253, 253);
+    position: absolute;
+    right: 10px;
+    color: rgb(15, 121, 134);
+    top: 8px;
+    width: 35px;
+    height: 35px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+#titulo22{
+  
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+}
+.modal_titulo2{
+    color: white;
+    font-size: 30px;
+    margin-top: 1px;
+    text-align: center;
+    justify-content: center;
+}
+.modal_mensaje2{            
+    margin-top: 5px;
+   padding: 5px 50px;
+   font-size: 20px;
+   color: #000;
+}
+.modal_botones2{      
+    width: 100%;    
+   background: rgb(253, 253, 253);
+   border-top:whitesmoke 1px;
+   display: flex;
+   justify-content: space-evenly;
+   padding-bottom: 5px;
+   border-radius: 30px;
+   font-family: 'Montserrat', sans-serif;
+}
+
+.boton2{
+    background: rgb(15, 121, 134);
+    padding: 8px 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border-radius: 25px;
+    border:1px solid rgb(235, 234, 241);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+.boton2:hover{
+    color: rgb(10, 10, 10);
+}
+#modal-img2{
+    height: 100px;
+    width: 100px;
+}
