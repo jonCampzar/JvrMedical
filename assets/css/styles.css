@@ -468,6 +468,10 @@ tr, td{
     justify-content: center;
     align-items: center;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Cinzel+Decorative:wght@900&family=Kaushan+Script&family=Patua+One&family=Roboto+Mono:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 /* ventana modal home medico */
 .fondo_transparente2{
     top: 0;
@@ -557,7 +561,7 @@ tr, td{
 }
 #especialidad{
     display: flex;
-    margin-left: 40px;
+    margin-left: 60px;
     font-family: 'Bad Script', cursive;
     font-size: 24px;
     margin-top: 10px;
